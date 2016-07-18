@@ -1,1 +1,5 @@
-/Users/Lui/Dropbox/Mackup/.livestreamerrc
+# Player options
+player=mpv --cache 2048
+player-no-close
+hls-segment-threads = 10
+default-stream = best
