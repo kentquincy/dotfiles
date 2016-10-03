@@ -23,7 +23,7 @@ source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pak='livestreamer http://www.twitch.tv/pakratt0013'
 alias geek='livestreamer https://www.twitch.tv/geekandsundry'
-alias composer="php /usr/local/bin/composer.phar"
+# alias composer="php /usr/local/bin/composer.phar"
 
 # Init fasd plugin
 eval "$(fasd --init auto)"
