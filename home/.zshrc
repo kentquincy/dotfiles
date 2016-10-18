@@ -5,13 +5,17 @@ export ZSH=/Users/LuiMac/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 ZSH_THEME="norm"
 
+# Locale settings (utf-8)
+export LC_CTYPE=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(git brew osx npm tmux vagrant)
 
 # User configuration
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/LuiMac/.rvm/bin:/usr/local/Cellar"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/LuiMac/.rvm/bin:/usr/local/Cellar:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -34,4 +38,4 @@ ZSH_TMUX_AUTOSTART_ONCE="false"
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
-export PATH="/usr/local/sbin:$PATH:$HOME/.composer/vendor/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH:$HOME/.composer/vendor/bin:$PATH:$PATH:$HOME/.yarn/bin"
