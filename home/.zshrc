@@ -6,8 +6,8 @@ export ZSH=/Users/LuiMac/.oh-my-zsh
 ZSH_THEME="norm"
 
 # Locale settings (utf-8)
-export LC_CTYPE=en_US.UTF-8
-export LANG=en_US.UTF-8
+#export LC_CTYPE=en_US.UTF-8
+#export LANG=en_US.UTF-8
 
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
@@ -23,11 +23,11 @@ source /Users/LuiMac/.gulp-autocompletion-zsh/gulp-autocompletion.zsh
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias pak='livestreamer http://www.twitch.tv/pakratt0013'
+alias zshconfig="atom ~/.zshrc"
+alias pak='livestreamer https://www.twitch.tv/pakratt0013'
 alias geek='livestreamer https://www.twitch.tv/geekandsundry'
-# alias composer="php /usr/local/bin/composer.phar"
+alias soviet='livestreamer https://www.twitch.tv/sovietwomble'
+alias cyanide='https://www.twitch.tv/cyanideplaysgames'
 
 # Init fasd plugin
 eval "$(fasd --init auto)"
@@ -38,4 +38,4 @@ ZSH_TMUX_AUTOSTART_ONCE="false"
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
-export PATH="/usr/local/sbin:$PATH:$HOME/.composer/vendor/bin:$PATH:$PATH:$HOME/.yarn/bin"
+export PATH="/usr/local/sbin:$PATH:$HOME/.composer/vendor/bin:$PATH:$HOME/.yarn/bin"
